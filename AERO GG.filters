@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Menu\main.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\main header.h">
+      <Filter>Resouce Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\stdafx.h">
+      <Filter>Resouce Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines\utils.h">
+      <Filter>Resouce Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32\win_utils.h">
+      <Filter>Resouce Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection\xor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines\define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{fae288c9-8f87-46c7-a382-452af8277a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resouce Files">
+      <UniqueIdentifier>{c5f3db6c-b7e1-49cf-ae97-503f3ce3d436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3a168e2f-c4dd-47cf-8ced-707ef01173a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{a16d580d-0f6d-4f55-8255-424618c6dd56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{90e1b686-e777-45a5-b646-424dcd72b761}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="D3XD\d3dx9.lib">
+      <Filter>libs</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Menu\old.h" />
+  </ItemGroup>
+</Project>
